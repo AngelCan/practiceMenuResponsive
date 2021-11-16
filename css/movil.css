@@ -1,0 +1,33 @@
+@media screen and (max-width: 400px) {
+    #menu{
+        display: block;
+        color: white;
+        
+        
+    }
+    #options{
+        font-size: 20px;
+        padding: 0;
+        margin-left: 0px;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        display: none;
+    }
+    .contenedorMenu li{
+        width: 98%;
+    }
+    .contenedorMenu a{
+        margin: 0;
+        display: block;
+        background-color: black;
+        border-bottom: 2px white dotted;
+    }
+    .card{
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .flecha{
+        position: absolute;
+    }
+}
